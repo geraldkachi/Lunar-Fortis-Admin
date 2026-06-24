@@ -7,7 +7,7 @@ export function Logo({ showAdmin = false }: { showAdmin?: boolean }) {
   return (
     <div className="flex items-center gap-2">
       <div className="w-5 h-5 bg-[#0D1B2A] rounded-sm flex-shrink-0" />
-      <span className="font-bold text-[#0D1B2A] text-base">Lunar Fortis</span>
+      <span className="font-bold text-[#0D1B2A] text-base whitespace-pre">Lunar Fortis</span>
       {showAdmin && (
         <span className="text-xs font-medium border border-[#0D1B2A] text-[#0D1B2A] px-2 py-0.5 rounded-full">Admin</span>
       )}

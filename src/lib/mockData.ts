@@ -67,8 +67,8 @@ export const MERCHANT_LOCATIONS: MerchantLocation[] = [
   { city: "Awka", count: 156, max: 231 },
   { city: "Benin", count: 156, max: 231 },
   { city: "Rivers", count: 80, max: 231 },
-  { city: "Ekiti", count: 156, max: 231 },
-  { city: "Abia", count: 40, max: 231 },
+  // { city: "Ekiti", count: 156, max: 231 },
+  // { city: "Abia", count: 40, max: 231 },
 ];
 
 export const CHART_DATA = Array.from({ length: 12 }, (_, i) => ({
